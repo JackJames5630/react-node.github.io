@@ -1,0 +1,429 @@
+.layout {
+}
+.title {
+    padding-top: 160px;
+}
+.btn_group .colored_btn {
+    border: none !important;
+}
+.title .big_title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 42.36px
+}
+.title .sm_title {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 42.36px;
+    margin-bottom: 35px;
+}
+.title > p {
+    margin-bottom: 0px;
+    z-index: 1;
+}
+.title .btn_group {
+    margin-top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.value_group {
+    margin-top: 105px !important;
+    margin-bottom: 112px !important;
+    display: flex;
+}
+.value_group .value_div {
+    width: 441px;
+    height: 145px;
+
+
+    /* opacity: 0.1; */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    /* Note: backdrop-filter has minimal browser support */
+    /* background:rgba(255, 255, 255, 0.2); */
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.w_65 {
+    width: 65%;
+}
+.value_div .value_label {
+    /* font-family: Inter; */
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: capitalize;
+}
+.value_div .value {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    /* identical to box height, or 132% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+.solana_div {
+    width: 187px;
+    height: 37px;
+    font-size: 18px;
+/* or 183% */
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+}
+.solana_div > a {
+    text-decoration: inherit;
+}
+.solana_div .left_label {
+    line-height: 33px !important;
+    font-weight: 400;
+
+}
+.solana_div .right_label {
+    line-height: 33px !important;
+    font-weight: 700;
+
+}
+.solana_div .colored_div{
+    width: 78px;
+    height: 3px;
+    background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
+    border-radius: 2px;
+    margin-right: 20px;
+    float: right;
+}
+.social_div .icon_div {
+    border: none
+}
+.social_div {
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+}
+.social_text > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 33px;
+    /* or 220% */
+
+    text-align: center;
+    text-transform: capitalize;
+}
+.title_div:first-child {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 36px;
+    /* or 138% */
+
+    text-align: center;
+    text-transform: capitalize;
+}
+.title_div .text_label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    /* or 138% */
+
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+.content_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    width: 850px;
+    height: 480px;
+    /*height:  466px*/
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* flex-wrap: wrap; */
+}
+.content_div .amount_div {
+    width: 555px;
+    height: 106px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 13px;
+    padding-left: 30px;
+}
+.amount_div .input_div {
+    width: 105px;
+    height: 33px;
+}
+.amount_div .input_amount_div {
+    /* width: 50px; */
+    height: 33px;
+}
+.input_amount_div > input {
+    border-radius: 10px;
+}
+.amount_div .input_unit_div {
+    margin-right: 30px
+}
+.content_div .button_div {
+    width: 555px;
+    height: 90px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button_div .colored_div {
+    background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
+}
+.day_button {
+    width: 103px;
+    height: 50px;
+    border: 1px solid #22E0A0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.day_button:active {
+    background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
+}
+.day_button .day_label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 45px;
+    /* identical to box height, or 206% */
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+input {
+    border:0;
+    outline:0;
+}
+.input_box {
+    outline:none!important;
+    border: none !important;
+}
+input:focus {outline:none!important;}
+input:active {
+    border: none !important;
+}
+input:focus {
+    border: none !important;
+}
+
+.content_div .answer_div {
+    width: 555px;
+    height: 136px;
+    border: 1px solid #22E0A0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.answer_div .result_text {
+    color: #14F195;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+/* identical to box height, or 206% */
+
+text-align: right;
+text-transform: capitalize
+}
+.answer_div .static_label {
+    padding-top: 13px;
+}
+.result_text.result {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    /* identical to box height, or 132% */
+
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+}
+.content_div .footer_div {
+    width: 555px;
+    height: 30px;
+    border: none;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 28px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 13px;
+}
+.div_group {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.social_button .icon_div {
+    background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
+    color: white;
+}
+
+.telegram > a {
+    text-decoration: inherit;
+}
+
+.twitter > a {
+    text-decoration: inherit;
+}
+
+.instagram > a {
+    text-decoration: inherit;
+}
+.icon_div {
+    width: 193px;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+}
+.social_button .icon_div:active {
+    opacity: 0.6;
+}
+.telegram {
+
+}
+.custom_div {
+    width: 820px;
+}
+.first_card_div {
+    width: 1225px;
+}
+.social_button {
+    width: 661px;
+}
+.progress_bar {
+    width: 850px;
+}
+.progress_bar > div {
+    height: 20px;
+    margin-bottom: 10px;
+}
+.div_available {
+    width: 550px;
+    margin-top: 5px;
+    color: #22E0A0;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 615px) { 
+    .value_group .value_div {
+        width: 100% !important
+    }
+    .card {
+        width: 100% !important
+    }
+    .div_available {
+        width: 100% !important
+    }
+}
+
+@media only screen and (max-width: 560px) { 
+    .input_amount_div > input {
+        width: 90%
+    }
+    .value_group {
+        margin-bottom: 25px !important;
+    }
+    .social_div {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+
+@media only screen and (max-width: 768px) { 
+    .amount_div {
+        width: 100% !important;
+    }
+    .button_div  {
+        width: 90% !important;
+    }
+    .answer_div {
+        width: 100% !important
+    }
+    .footer_div {
+        width: 100% !important
+    }
+    .custom_div {
+        width: 100% !important
+    }
+}
+
+@media only screen and (max-width: 992px) { 
+    .instagram {
+        margin-top: 10px !important;
+    }
+    .twitter {
+        margin-top: 10px !important;
+    }
+    .progress_bar {
+        width: 100% !important
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) { 
+    .left_div {
+        margin-right: 5px !important;
+    }
+    .right_div {
+        margin-left: 5px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 1400px) { 
+    .first_card_div {
+        width: 820px;
+    }
+}
+.link_btn:hover {
+    box-shadow: 0 0 0 1px rgba(45, 189, 100, 0.651);
+    transition: all 200ms ease-out;
+}
+.social_button .icon_div:hover {
+    box-shadow: 0 0 0 1px rgba(45, 189, 100, 0.651);
+    transition: all 200ms ease-out;
+}
+.day_button:hover {
+    box-shadow: 0 0 0 1px rgba(45, 189, 100, 0.651);
+    transition: all 200ms ease-out;
+}
+.button_div.abled_button:hover {
+    box-shadow: 0 0 0 1px rgba(45, 189, 100, 0.651);
+    transition: all 200ms ease-out;
+}

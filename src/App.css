@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./assets/fonts/Inter.ttf') format('woff');
+}
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important
+}
+.wallet-adapter-dropdown {
+  display: flex !important;
+}
+a {
+  text-decoration: inherit;
+}
+a {
+  color: inherit;
+}
+.wallet-adapter-dropdown {
+  margin-left: auto
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: black;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #73469B;
+  border-top-color: #e2eefd;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+.link_btn {
+  /* border: none; */
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box !important;
+  border-radius: 10px !important;
+  width: 170px !important;
+  height: 67px !important;
+  margin-bottom: 17px !important;
+}
+.colored_btn {
+  background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%) !important;
+  margin: auto;
+}
+
+.ml_17 {
+  margin-left: 17px;
+}
+.mr_17 {
+  margin-right: 17px;
+}
+.normal_font {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 33px;
+  align-items: center;
+  text-transform: capitalize;
+}
+.wallet-adapter-modal-wrapper {
+  background: #0D0D0D !important;
+  border: 1px solid #22E0A0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1050;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 20px rgb(0 0 0 / 60%);
+  font-family: 'Inter', 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  padding: 40px 20px 20px;
+  flex: 1 1;
+}
+.wallet-adapter-modal-logo-wrapper {
+  background: #0D0D0D !important;
+}
+/* .wallet-adapter-modal-wrapper-no-logo {
+  display: none !important;
+} */
+
+@-webkit-keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+@keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
